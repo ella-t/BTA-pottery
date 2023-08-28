@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "potterymod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Pottery Mod",
+  "description": "Adds a lathe to let players craft custom pottery.",
   "authors": [
-    "Turnip Labs"
+    "EllaSorellaBrella"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+      "ellabrella.potterymod.PotteryMod"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "potterymod.mixins.json"
   ],
 
   "depends": {
