@@ -6,6 +6,7 @@
     "mixins": [
     ],
     "client": [
+        "BlockModelDispatcherMixin"
     ],
     "injectors": {
         "defaultRequire": 1
